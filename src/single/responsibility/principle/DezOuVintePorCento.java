@@ -1,6 +1,6 @@
-package principioS;
+package single.responsibility.principle;
 
-public class QuinzeOuVinteCincoPorCento implements RegraDeCalculo{
+public class DezOuVintePorCento implements RegraDeCalculo{
 	
 	public double calcula(Funcionario funcionario) {
 		if (funcionario.getSalarioBase() > 3000.0) {

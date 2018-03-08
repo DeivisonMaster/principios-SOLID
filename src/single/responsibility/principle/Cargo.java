@@ -1,4 +1,4 @@
-package principioS;
+package single.responsibility.principle;
 
 /* Encapsulamento mantido com regra de desconto vinculado ao ENUM */
 public enum Cargo {

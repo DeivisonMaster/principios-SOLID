@@ -1,4 +1,4 @@
-package principioS;
+package single.responsibility.principle;
 
 public class CalculadoraDeSalario {
 	
