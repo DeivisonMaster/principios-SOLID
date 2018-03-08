@@ -1,14 +1,14 @@
 package principioS;
 
+/* Encapsulamento mantido com regra de desconto vinculado ao ENUM */
 public enum Cargo {
 	DESENVOLVEDOR(new DezOuVintePorCento()),
 	DBA(new QuinzeOuVinteCincoPorCento()),
 	TESTER(new QuinzeOuVinteCincoPorCento());
 	
-	
 	private RegraDeCalculo regra;
 
-	Cargo(RegraDeCalculo regra){
+	Cargo(RegraDeCalculo regra) {
 		this.regra = regra;
 	}
 	

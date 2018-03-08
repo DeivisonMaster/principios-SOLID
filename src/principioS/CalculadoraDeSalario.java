@@ -1,10 +1,8 @@
 package principioS;
 
 public class CalculadoraDeSalario {
-
-	public double calcula(Funcionario funcionario) {
+	
+	public double calcula(Funcionario funcionario){
 		return funcionario.calculaSalario();
 	}
-
-	
 }
